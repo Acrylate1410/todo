@@ -42,7 +42,7 @@ function App() {
     listToUpdate.push(newTask)
     saveToFile(listToUpdate);
   }
-  // spread va rest, lifecycle react
+
   const handleToggle = (i) => {
     const listToUpdate = [...taskList];
     listToUpdate[i].isChecked = !listToUpdate[i].isChecked;
